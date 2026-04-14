@@ -4,7 +4,7 @@ This repository contains a small Python script for generating synthetic fiber im
 
 ## What the script does
 
-`try.py`:
+`generate_fiber_images.py`:
 
 - Samples ellipse sizes and orientations within user-defined ranges.
 - Places ellipses while avoiding overlaps.
@@ -37,19 +37,19 @@ pip install numpy matplotlib shapely tqdm
 Generate one image with the default settings:
 
 ```bash
-python try.py
+python generate_fiber_images.py
 ```
 
 Generate ten images and save them to a custom output directory:
 
 ```bash
-python try.py --num-images 10 --output-dir images
+python generate_fiber_images.py --num-images 10 --output-dir images
 ```
 
 Generate images with a different ellipse orientation range:
 
 ```bash
-python try.py --phi-min 15 --phi-max 75
+python generate_fiber_images.py --phi-min 15 --phi-max 75
 ```
 
 ## Parameters users are most likely to change
@@ -84,7 +84,7 @@ This makes it easy to associate each generated image with its orientation tensor
 
 ## Repository contents
 
-- [try.py](./try.py): main script used to generate the synthetic images.
+- [generate_fiber_images.py](./generate_fiber_images.py): main script used to generate the synthetic images.
 - [requirements.txt](./requirements.txt): Python dependencies needed to run the script.
 
 ## License
