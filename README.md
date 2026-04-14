@@ -89,4 +89,4 @@ This makes it easy to associate each generated image with its orientation tensor
 
 ## License
 
-No license file has been added yet. If this repository is intended for public reuse, a `LICENSE` file should be included so users know the redistribution and reuse conditions.
+This repository is released under the [MIT License](./LICENSE).
